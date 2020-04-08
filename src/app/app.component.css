@@ -1,0 +1,10 @@
+.container-fluid{
+    background-image: url('../assets/images/oceanside-pier.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+app-navbar{
+    width:100%;
+    background-color: blue;
+}

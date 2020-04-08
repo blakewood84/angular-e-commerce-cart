@@ -1,0 +1,56 @@
+#prod-name{
+    _text-align: center;
+}
+hr.sm-4{
+    border-top:1px solid rgba(43, 199, 23, 0.568);
+    width:25px;
+}
+.price{
+    font-size:1.25rem;
+}
+.spacer-block{
+    width:100%;
+    height:20px;
+    
+}
+.spacer{
+    background-image: url('../../assets/images/icons/swirly-png.png');
+    width:100%;
+    height:10px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+#cart-query{
+    text-align: center;
+    font-size:40px;
+    color:white;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top:200px;
+    text-align: center;
+    width:100%;
+}
+.cartQuery
+{
+    animation: cartQuery;
+    animation-duration: .5s;
+}
+@keyframes cartQuery
+{
+    0%{
+        opacity:.25;
+    }
+    100%{
+        opacity:1;
+    }
+}
+#rating{
+    vertical-align: middle;
+}
+#prod-rating{
+    vertical-align: middle;
+}

@@ -1,0 +1,34 @@
+.jumbotron
+{
+    background-color: rgba(212, 47, 47, 0.614)!important;
+    color:black!important;
+}
+#social-link:hover{
+    transform: scale(1.1);
+}
+#bg-container
+{
+    background-repeat: no-repeat;
+    background: url('../../assets/images/oceanside-pier.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#prod-cards:hover{
+    transform: scale(1.1);
+    _background-color:whitesmoke;
+    cursor: pointer;
+}
+#prod-info{
+    border:1px solid black;
+}
+#prod-name{
+    font-size:20px;
+    color:black!important;
+}
+.prod-price{
+    font-size:20px;
+    color:blue!important;
+}

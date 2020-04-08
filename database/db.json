@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "CS Surf Wax",
+            "subtitle": "Surfboard Formula",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price": 3.99,
+            "instock":"15",
+            "image_url": "../../assets/images/products/prod-01.jpg",
+            "rating": "2"
+        },
+        {
+            "id": 1,
+            "name": "Thruster Manta",
+            "subtitle": "Tri Fin - Poly - Black",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price": 205.00,
+            "instock":"5",
+            "image_url": "../../assets/images/products/prod-5.jpg",
+            "rating": "4"
+        },
+        {
+            "id": 2,
+            "name": "CS Frisbee",
+            "subtitle": "Quality Polyethlene",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price": 10.00,
+            "instock":"12",
+            "image_url": "../../assets/images/products/prod-2.jpg",
+            "rating": "0"
+        },
+        {
+            "id": 3,
+            "name": "CS Liquid Bottle",
+            "subtitle": "Aluminum - Comes in 1 color only",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price": 15.99,
+            "instock":"9",
+            "image_url": "../../assets/images/products/prod-3.jpg",
+            "rating": "3"
+        },
+        {
+            "id": 4,
+            "name": "CS Surf Wax 3pack",
+            "subtitle": "3 pack - Cold, Warm, Hot",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price": 7.99,
+            "instock":"13",
+            "image_url": "../../assets/images/products/prod-4.jpg",
+            "rating": "4"
+        }
+    ]
+}

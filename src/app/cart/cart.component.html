@@ -1,0 +1,36 @@
+<div class="container">
+<h2 class="mt-4">Your Cart of Warez</h2>
+</div>
+<div id="cart-container" class="container mb-5">
+    <div id="clear-cart">
+      <span class=""><a type="button" title="Clear Cart!" (click)="clearCart()"><i class="oi oi-x"></i> - <span id="clear">Clear Cart</span></a></span>
+    </div>
+    <div id="item-container">
+    <div id="cart-item{{item.product.id}}" class="p-4 d-flex m-4 border-bottom item" *ngFor='let item of items'>
+      <div id="item-delete" class="align-self-center mr-3"><a class="delete-button" (click)="deleteItem(item)"><i
+            class="oi oi-trash"></i></a></div>
+      <div id="item-image" class="ml-2"><img [src]='item.product.image_url' (error)="updateImageUrl(item)" width="100px" height="100px" /></div>
+      <div id="item-info" class="align-self-top ml-4">
+        <div id="item-name">
+          <h4><span>{{item.product.name}}</span></h4>
+        </div>
+        <div id="item-price">
+          <i class="oi oi-dollar"></i><span id="price">{{item.product.price}}</span>
+        </div>
+        <div id="item-qty" class="d-flex"><a class="ml-1 mr-2 button align-self-center" (click)="addQty(item)"><i
+              class="oi oi-plus"></i></a>
+          <h5>x<span id="qty-item{{item.product.id}}">{{item.quantity}}</span></h5> <a
+            class="ml-2 button align-self-center" (click)="subQty(item)"><i class="oi oi-minus"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-end mr-5">
+    <div id="total">
+      <h3>TOTAL: <i class="oi oi-dollar"></i><span id="total-price">0.00</span></h3>
+    </div>
+  </div>
+  <div class="d-flex justify-content-end mr-5 mb-3">
+    <div id="check-out"><button class="btn btn-danger" type="button" (click)="gotoCheckOut()">Check Out</button></div>
+  </div>
+</div>

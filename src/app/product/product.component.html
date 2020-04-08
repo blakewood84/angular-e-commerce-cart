@@ -1,0 +1,18 @@
+<div id="prod-container" class="container mt-5">
+    <div id="prod-card" class="row mt-4">
+        <div id="prod-image" class="col-6"><img [src]='product.image_url' (error)="updateImageUrl(product)" class="img-fluid" /></div>
+        <div id="prod-info" class="col-6 mt-5">
+            <p id="cart-query"></p>
+            <hr class="my-4">
+            <div id="prod-name" class="text-center"><h1>{{product.name}}</h1></div>
+            <div id="prod-subtitle" class="text-center"><em class="subtitle">{{product.subtitle}}</em></div>
+            <div class="text-center spacer-block mt-2 mb-2"><span class="spacer">&nbsp;</span></div>
+            <div id="prod-price" class="text-center"><em class="price">Price:</em>&nbsp;&nbsp;<i class="oi oi-dollar"></i><b class="price">{{product.price}}</b></div>
+            <div id="prod-stock" class="text-center"><em>In Stock:</em> {{product.instock}}</div>
+            <div id="prod-rating" class="text-center d-flex align-self-center justify-content-center"><em>Rating:</em> <span id="rating"></span></div>
+            <hr class="my-4">
+            <p id="prod-description" class="">{{product.description}}</p>
+            <div id="button" class="d-flex justify-content-end"><a class="btn btn-outline-danger btn-lg" (click)="addToCart(product)">Buy</a></div>
+        </div>
+    </div>
+</div>

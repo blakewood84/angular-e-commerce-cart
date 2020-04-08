@@ -1,0 +1,52 @@
+<div id="bg-container">
+    <div id="prod-disp-container" class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hej, SportsCompass!</h1>
+            <p class="lead">My name is Blake Wood and I am a Bethel School of Technology student. I'm hoping to work with you and build some
+                my skills especially with a team! All code is 100% mine and new.</p>
+            <hr class="my-4">
+            <h4>About this Project - README</h4>
+            <details class="ml-4" close="">
+                <summary>
+                    <b>Project info</b>
+                </summary>
+                <b>Built using Angular 9 Framework - @angular/cli</b>
+                <p class="ml-4">
+                    Code: TypeScript, CSS4, jQuery<br />
+                    Database(REST Api): Persisted with database/db.json(Products) and localStorage(Cart).<br />
+                    Broken image links are swapped with src/assets/images/placehold.png<br /></p>
+            </details>
+            <details class="ml-4" close="">
+                <summary>
+                    <b>Installation</b>
+                </summary>
+                <b>Installation -- npm install - node dependencies: json-server, @ng-bootstrap/ng-bootstrap,
+                    @icon/open-iconic</b><br />
+                <ol>
+                    <li>Run ng serve</li>
+                    <li>Run json-server --watch database/db.json</li>
+                </ol>
+            </details>
+            <p class="lead m-4">
+                <a class="mr-3" href="https://github.com/blakewood84" target="_blank" title="GitHub Profile"><img id="social-link"  src="../../assets/images/icons/github.png" /></a>
+                <a class="ml-3 mr-3" href="https://www.linkedin.com/in/blakewoodjr/" target="_blank" title="@blakewood84"><img id="social-link" src="../../assets/images/icons/linkedin.png" /></a>
+                <a class="ml-3 mr-3" href="mailto:blake.wood.bst@visible.edu" target="_blank" title="@blakewood84"><img id="social-link"  src="../../assets/images/icons/mail.png" /></a>
+            </p>
+        </div>
+        <h2>List of my Warez</h2>
+        <div class="row">
+            <div class="col-2 m-4" id="prod-cards" *ngFor="let product of products" (click)="gotoProduct(product)">
+                <div class="row">
+                    <div id="prod-image" class="col-fluid"><img class="img-thumbnail" [src]='product.image_url'
+                            (error)="updateImageUrl(product)" /></div>
+                </div>
+                <div class="row">
+                    <div id="prod-name" class="mx-auto">{{product.name}}</div>
+                </div>
+                <div class="row">
+                    <div id="prod-price" class="mx-auto"><i class="oi oi-dollar"></i><b class="prod-price">{{product.price}}</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

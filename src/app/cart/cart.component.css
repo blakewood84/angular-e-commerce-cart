@@ -1,0 +1,44 @@
+#cart-container
+{
+    border: 1px solid rgba(255, 1, 1, 0.249);
+}
+#clear
+{
+    font-size:12px;
+}
+#item-info{
+    margin-top: -5px;
+}
+#price{
+    font-size:18px;
+}
+.item:hover
+{
+    transform:scale(1.05);
+    background-color: whitesmoke;
+}
+.button{
+    cursor: pointer;
+    font-size:12px!important;
+}
+.delete-button
+{
+    cursor: pointer;
+    font-size: 20px!important;
+    fill: red!important;
+}
+.delete-style
+{
+    animation: deleteItem;
+    animation-duration: 1.15s;
+}
+
+@keyframes deleteItem {
+    0%{
+        opacity:1;
+    }
+    100%{
+        background-color: rgba(255, 1, 1, 0.781);
+        opacity:0;
+    }
+}
