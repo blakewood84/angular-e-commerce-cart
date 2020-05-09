@@ -1,6 +1,6 @@
 # ShoppingCart
 
-![](https://j.gifs.com/XL9R5k.gif)
+![Image of E-Cart](https://j.gifs.com/XL9R5k.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
