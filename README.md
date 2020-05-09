@@ -7,11 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # E-Cart By Blake Wood Jr.
 Shopping Cart Project with Angular 9, Rest Api, localStorage Api <br>
 <br>
-<<<<<<< HEAD
-This Shopping Cart Project was created for a possible internship with SportsCompass.dk <br>
-=======
 ## E-Cart is beta and not finished.  Still needs a backend(currently working on) and the Checkout process is not finished.
->>>>>>> 6d8e3fe5e89f27b63d75fc865431655149392869
 
 ### Info
 **Built with:** Angular 9 Framework - @angular/cli <br>
