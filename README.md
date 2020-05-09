@@ -1,28 +1,34 @@
 # ShoppingCart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
-<h4>About this Project - README</h4>
-<details class="ml-4" close="">
-    <summary>
-        <b>Project info</b>
-    </summary>
-    <b>Built using Angular 9 Framework - @angular/cli</b>
-    <p class="ml-4">
-        Code: TypeScript, CSS4, jQuery<br />
-        Database(REST Api): Persisted with database/db.json(Products) and localStorage(Cart).<br />
-        Broken image links are swapped with src/assets/images/placehold.png<br /></p>
-</details>
-<details class="ml-4" close="">
-    <summary>
-        <b>Installation</b>
-    </summary>
-    <b>Installation -- npm install - node dependencies: json-server, @ng-bootstrap/ng-bootstrap,
-        @icon/open-iconic</b><br />
-    <ol>
-        <li>Run ng serve</li>
-        <li>Run json-server --watch database/db.json</li>
-    </ol>
-</details>
+
+# E-Cart By Blake Wood Jr.
+Shopping Cart Project with Angular 9, Rest Api, localStorage Api <br>
+<br>
+This Shopping Cart Project was created for a possible internship with SportsCompass.dk <br>
+
+### Info
+**Built with:** Angular 9 Framework - @angular/cli <br>
+**Code:** TypeScript, CSS4, jQuery <br>
+**Database(REST Api):** Persisted with database/db.json(Products) and localStorage(Cart). <br>
+**Damaged URLs:** Broken image links are swapped with src/assets/images/placehold.png, **Example:** First image in shopping cart 
+
+### Installation
+1. **npm install** - node dependencies: json-server, @ng-bootstrap/ng-bootstrap, @icon/open-iconic
+2. **npm install json-server -g** - installs json-server globally (required for .json file db)
+3. **json-server --watch database/db.json** - runs Products database at database/db.json
+4. **ng serve --open** - Serves application and opens testing browser
+<br>
+If icons do not show - please **npm install @icon/open-iconic**
+
+### Tests
+**ng test**
+
+## Contact Info: 
+Blake Wood Jr. - blake.wood.bst@visible.edu<br>
+LinkedIn - https://www.linkedin.com/in/blakewoodjr<br>
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

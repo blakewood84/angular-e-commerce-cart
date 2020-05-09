@@ -5,10 +5,10 @@ FIX:
 -Issue Product Display Rating (needs working method)
 
 
-
+Create a method to splice any item with quantity of 0 and upload any remaining items to localStorage in the Cart
 Add a Sorting Method for Price and Name
 Add a Comments Section for Users
-+ Bubble to Shopping Cart when products added
++Bubble to Shopping Cart when products added
 Only let user add up to ammount of product in stock
 
 ====FINISHED TASKS====
