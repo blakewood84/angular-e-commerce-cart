@@ -1,6 +1,6 @@
 # ShoppingCart
 
-![Image of E-Cart](https://j.gifs.com/XL9R5k.gif)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
